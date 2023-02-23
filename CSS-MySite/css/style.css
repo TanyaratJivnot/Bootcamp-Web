@@ -1,0 +1,135 @@
+body{
+    text-align: center; /* จะกำหนดทุกอย่างที่อยู่ภายในแบบที่ไม่กำหนดขนาดของตัวมันให้อยู่ตรงกลางเสมอ  */
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    background-color: #F5F5F5;
+}
+.p-top{
+    color: #439A97;
+    font-size: 2.5rem;
+    margin-top: 2px;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+h1{
+    margin: 50px auto 2px auto; /* top left bottom right */
+    font-family: 'Sacramento', cursive;
+    color:  #66BFBF;
+    font-size: 5.625em;
+}
+h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-size: 3.8em;
+    color: #66BFBF;
+}
+h3{
+    font-size: 2em;
+    color: #11999E;
+}
+p{
+    color: #40514E;
+    margin: 5px auto 25px auto;
+    font-size: 1.5em;
+}
+a{
+    color: #11999E;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0 30px;
+}
+/* top */
+.skill-row{
+    width: 50%;
+    position: relative;
+    margin: 100px auto;
+    line-height: 2;/* ช่องว่างระหว่างบรรทัด */
+    text-align: left;
+}
+.top-container{
+    background-color: #e4f9f5;
+    padding-top: 100px;
+}
+.colund-top, .colund-bottom{
+    width: 150px;
+}
+.colund-bottom{
+    position: absolute;
+    left: 20%;
+    bottom: 50%;
+}
+.colund-top{
+    position: absolute;
+    right: 20%;
+    top: 10%;
+}
+.mountain{
+    width: 50%;
+}
+.intro{
+    width: 30%;
+}
+ /* midle */
+.middle-container{
+    position: relative;
+}
+.pictur_profile{
+    width: 15%;
+    margin: 0 auto 0 auto;
+    border-radius: 100%;
+    border: 10px solid #DADADA;
+    margin-top: 80px;
+}
+.Ux_Ui,.backend,.ML,.DataSci{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    
+}
+/* .description-left{
+    clear: left; เคลียสิ่งที่ติดอยู่ทางฝั่งซ้ายไม่ให้มีอะไร 
+} */
+.frontend,.Databast,.DL{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+/* .description-right{
+    clear: right; เคลียสิ่งที่ติดอยู่ทางฝั่งขวาไม่ให้มีอะไร 
+} */
+hr{
+    border-style: none;
+    width: 6%;
+    border-bottom: dotted #E8E2E2 6px;
+}
+table{
+    margin: 0 auto 0 auto;
+}
+.icon{
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px 10px 20px 10px;
+}
+/* bottom */
+button{
+    color: #F5F5F5;
+    background: linear-gradient(#11cdd4,#11999e);
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    margin: 50px auto;
+}
+button:hover{
+    background: linear-gradient(#30e3cb,#2bc4ad);
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 60px;
+}
+.contact_buttom{
+    color: #EAF6F6;
+    font-size: 1em;
+    margin-top: 50px;
+}

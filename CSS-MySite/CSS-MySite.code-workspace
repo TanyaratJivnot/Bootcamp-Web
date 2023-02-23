@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "CSS-MySite"
+	},
+	{
+		"path": "../Downloads/Compressed/unicorn-sparkles"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "CSS-MySite"
+  }
+}
